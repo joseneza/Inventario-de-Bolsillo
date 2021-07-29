@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/MyThemeLayout.Sub">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:id="@+id/chBoxTituloBusqAvanz"
+        android:textSize="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        style="@style/MyThemeTextView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editValorBusqAvanz"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="invisible"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        style="@style/MyThemeEditText"
+        android:singleLine="true" />
+</LinearLayout>

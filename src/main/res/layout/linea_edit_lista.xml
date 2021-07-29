@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MyThemeLayout.Sub">
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:text="@string/column_art"
+        android:id="@+id/edt_linea_Art"
+        android:gravity="center_vertical"
+        style="@style/MyThemeTextView.Sub" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        android:id="@+id/edt_linea_Cant"
+        android:layout_marginLeft="4dp"
+        android:gravity="center"
+        android:focusable="true"
+        style="@style/MyThemeEditText"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/column_descrip"
+        android:id="@+id/edt_linea_Descr"
+        android:layout_marginLeft="4dp"
+        style="@style/MyThemeTextView.Sub"
+        android:gravity="center_vertical" />
+
+</LinearLayout>

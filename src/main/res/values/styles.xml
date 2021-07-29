@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:colorForeground">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:textColorPrimary">@color/colorText</item>
+        <item name="android:textColorPrimaryInverse">@color/colorText_sub</item>
+        <item name="android:textColorSecondary">@color/colorSecondText</item>
+        <item name="android:textColorSecondaryInverse">@color/colorSecondText_sub</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:background">@color/colorBackground2</item>
+        <item name="android:textColor">@color/colorText_sub</item>
+    </style>
+    
+    <style name="MyThemeButton">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorBackground</item>
+    </style>
+
+    <style name="MyThemeLayout">
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="MyThemeLayout.Sub">
+        <item name="android:background">@color/colorBackground2</item>
+    </style>
+
+    <style name="MyThemeEditText">
+        <item name="android:background">@color/colorBackgroundLight</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="MyThemeTextView">
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="MyThemeTextView.Titulo">
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyThemeTextView.Sub">
+        <item name="android:textColor">@color/colorText_sub</item>
+    </style>
+
+    <style name="MyThemeTextView.Disable">
+        <item name="android:textColor">@color/colorText_disable</item>
+    </style>
+
+    <style name="MyThemeListView">
+        <item name="android:dividerHeight">@dimen/activity_horizontal_margin</item>
+        <item name="android:divider">@color/colorSeparator</item>
+    </style>
+
+    <style name="MyThemeListView2">
+        <item name="android:dividerHeight">@dimen/listView_matgin</item>
+        <item name="android:divider">@color/colorSeparator</item>
+    </style>
+
+</resources>

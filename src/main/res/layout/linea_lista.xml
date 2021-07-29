@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MyThemeLayout.Sub">
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:text="@string/column_art"
+        android:id="@+id/linea_Art"
+        android:gravity="right|center_vertical"
+        style="@style/MyThemeTextView.Sub" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:text="@string/column_cant"
+        android:id="@+id/linea_Cant"
+        android:layout_marginLeft="4dp"
+        android:gravity="right|center_vertical"
+        style="@style/MyThemeTextView.Sub" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/column_descrip"
+        android:id="@+id/linea_Descr"
+        android:layout_marginLeft="4dp"
+        style="@style/MyThemeTextView.Sub"
+        android:gravity="center_vertical" />
+</LinearLayout>

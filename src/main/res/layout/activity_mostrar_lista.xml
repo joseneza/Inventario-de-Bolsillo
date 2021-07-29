@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jose.prieto.mysmallbusinessbyneza.MostrarLista"
+    style="@style/MyThemeLayout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutMostrarLista" >
+
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="@string/column_art"
+            android:id="@+id/columnArt"
+            style="@style/MyThemeTextView" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/column_cant"
+            android:id="@+id/columnCant"
+            android:layout_marginLeft="2dp"
+            style="@style/MyThemeTextView" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/column_descrip"
+            android:id="@+id/columnDescr"
+            android:layout_marginLeft="2dp"
+            style="@style/MyThemeTextView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/articulos"
+            android:id="@+id/totalLista"
+            style="@style/MyThemeTextView" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewLista"
+        android:layout_below="@+id/layoutMostrarLista"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:descendantFocusability="beforeDescendants"
+        style="@style/MyThemeListView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layoutResultadoLista"
+        android:layout_above="@+id/listViewLista"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/column_art"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/columnVsArt"
+            style="@style/MyThemeTextView"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/column_lista"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/columnVsLista"
+            style="@style/MyThemeTextView"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/column_comparado"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/columnVsComparado"
+            style="@style/MyThemeTextView"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="@string/column_dif"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/columnVsdif"
+            style="@style/MyThemeTextView"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/column_descrip"
+            android:id="@+id/columnVsDescrip"
+            android:layout_marginLeft="7dp"
+            style="@style/MyThemeTextView" />
+    </LinearLayout>
+
+</RelativeLayout>

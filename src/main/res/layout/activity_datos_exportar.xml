@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jose.prieto.mysmallbusinessbyneza.DatosExportar"
+    style="@style/MyThemeLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/mensaje_exportar"
+        android:id="@+id/txtMsjExportar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/MyThemeTextView" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewExportar"
+        android:layout_below="@+id/txtMsjExportar"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/chBoxExportarConsentrado"
+        style="@style/MyThemeListView2" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msj_concentrate_export_list"
+        android:id="@+id/chBoxExportarConsentrado"
+        android:layout_above="@+id/chBoxExportarTipoPrecio"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="17dp"
+        style="@style/MyThemeTextView"
+        android:onClick="btnCkboxConsentrado" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msj_add_price_type"
+        android:id="@+id/chBoxExportarTipoPrecio"
+        android:layout_above="@+id/radioGroupExportar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="17dp"
+        style="@style/MyThemeTextView"
+        android:onClick="btnCkboxTipoPrecio" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupExportar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/msj_select_how_to_save_the_file"
+            android:id="@+id/txtTipoArch"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            style="@style/MyThemeTextView.Sub" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/msj_line_separated_file"
+            android:id="@+id/radBtnTxtLineaV"
+            android:checked="true"
+            android:textSize="17dp"
+            style="@style/MyThemeTextView" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/msj_tab_separated_file"
+            android:id="@+id/radBtnTxtTab"
+            android:textSize="17dp"
+            style="@style/MyThemeTextView" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/msj_comma_separated_file"
+            android:id="@+id/radBtncsv"
+            android:textSize="17dp"
+            style="@style/MyThemeTextView" />
+
+
+    </RadioGroup>
+
+
+
+
+</RelativeLayout>

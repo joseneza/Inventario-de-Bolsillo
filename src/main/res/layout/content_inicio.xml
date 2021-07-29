@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jose.prieto.mysmallbusinessbyneza.Inicio"
+    tools:showIn="@layout/activity_inicio"
+    style="@style/MyThemeLayout">
+
+    <EditText
+        android:id="@+id/edtArt"
+        style="@style/MyThemeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/str_numero_articulo"
+        android:inputType="number"
+        android:maxLength="15"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtCant"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/edtArt"
+        android:layout_marginLeft="8dp"
+        android:maxLength="3"
+        android:onClick="clickCant"
+        android:longClickable="false"
+        style="@style/MyThemeEditText"
+        android:hint="@string/str_cant"
+        android:layout_alignRight="@+id/txtExist"
+        android:layout_alignEnd="@+id/txtExist" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtExist"
+        android:textSize="20dp"
+        style="@style/MyThemeTextView"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/edtArt"
+        android:layout_toEndOf="@+id/edtArt" />
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtDescripcion"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/edtArt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="15dp"
+        style="@style/MyThemeTextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Mostrar Imagen"
+        android:id="@+id/btnImagen"
+        android:onClick="mostrarImagen"
+        android:layout_below="@+id/txtDescripcion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:textSize="10dp"
+        style="@style/MyThemeButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Usar Scanner"
+        android:id="@+id/btnScanner"
+        android:onClick="usarScanner"
+        android:layout_alignTop="@+id/btnImagen"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_above="@+id/listInicio"
+        android:layout_toLeftOf="@+id/btnImagen"
+        android:layout_toStartOf="@+id/btnImagen"
+        android:textSize="10dp"
+        style="@style/MyThemeButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Agregar Lista"
+        android:id="@+id/btnAgregar"
+        android:layout_alignTop="@+id/btnImagen"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_above="@+id/listInicio"
+        android:layout_toRightOf="@+id/btnImagen"
+        android:layout_toEndOf="@+id/btnImagen"
+        android:onClick="agregarLista"
+        android:textSize="10dp"
+        android:layout_marginLeft="8dp"
+        style="@style/MyThemeButton" />
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listInicio"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnImagen"
+        android:layout_marginTop="5dp"
+        style="@style/MyThemeListView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtNotific"
+        android:layout_below="@+id/listInicio"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/MyThemeTextView" />
+
+
+
+</RelativeLayout>
+

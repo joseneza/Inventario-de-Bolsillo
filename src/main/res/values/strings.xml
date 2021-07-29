@@ -1,0 +1,216 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">My Small Business by Neza</string>
+
+    <!-- Action Name -->
+    <string name="action_settings">Ajustes</string>
+    <string name="action_acerca_d">Acerca de...</string>
+    <string name="action_list">Lista</string>
+    <string name="action_show_list">Mostrar Lista</string>
+    <string name="action_export">Guardar Lista</string>
+    <string name="action_share">Compartir Lista</string>
+    <string name="action_delete_list">Borrar Lista</string>
+    <string name="action_new_data_base">Nueva Base de Datos</string>
+    <string name="action_advanced_search">Búsqueda Avanzada</string>
+    <string name="action_advanced_search_result">Resultado de la Busqueda</string>
+    <string name="action_delete_database">Borrar Base de Datos</string>
+    <string name="action_edit_list">Editar Lista</string>
+    <string name="action_save_changes">Guardar Cambios</string>
+    <string name="action_compare_list">Comparar Lista</string>
+    <string name="action_column_select">Selecciona las Columnas</string>
+    <string name="action_save_differences">Guardar Diferencias</string>
+
+    <!-- Default Preferences-->
+    <string name="preference_titulos"></string>
+    <string name="preference_precio">false</string>
+    <string name="preference_precio_ant">false</string>
+    <string name="preference_ean">false</string>
+    <string name="preference_urlImg">false</string>
+
+    <!-- Button Name -->
+    <string name="btn_aceptar">ACEPTAR</string>
+    <string name="btn_cancel">CANCELAR</string>
+    <string name="btn_save">GUARDAR</string>
+    <string name="btn_cancel_and_exit">CANCELAR Y SALIR</string>
+    <string name="btn_save_and_exit">GUARDAR Y SALIR</string>
+    <string name="btn_delete">BORRAR</string>
+    <string name="btn_exit_without_saving">SALIR SIN GUARDAR</string>
+    <string name="btn_exit">SALIR</string>
+    <string name="btn_no_exit">NO SALIR</string>
+    <string name="btn_yes">SI</string>
+    <string name="btn_no">NO</string>
+    <string name="btn_continue_list">SEGUIR CON LA LISTA</string>
+    <string name="btn_new_list">NUEVA LISTA</string>
+    <string name="btn_share">COMPARTIR</string>
+    <string name="btn_overriding">SOBREESCRIBIR</string>
+    <string name="btn_rename">RENOMBRAR</string>
+    <string name="btn_back">REGRESAR</string>
+    <string name="btn_next">SIGUIENTE</string>
+    <string name="btn_skip">OMITIR</string>
+
+    <!-- String Name -->
+    <string name="str_list_filename">Lista de Articulos</string>
+    <string name="str_lista_activo">Lista de Artículo</string>
+    <string name="str_lista_inactivo">Consulta de Artículo</string>
+    <string name="str_numero_articulo">No de Artículos</string>
+    <string name="str_cant">Cant</string>
+    <string name="str_cargar_datos">Carga de Datos</string>
+    <string name="str_archivo_local">Archivo Local</string>
+    <string name="str_nva_data_base">Agregar Nueva Base de Datos</string>
+    <string name="str_delete_data_base">Borrar Base de Datos</string>
+    <string name="str_servidor">Servidor</string>
+    <string name="str_unidad_automatica">Agregar un uno en modo lista</string>
+    <string name="str_vacio"></string>
+
+    <!-- Label Name -->
+    <string name="str_label_inicio">Buscar Artículos</string>
+    <string name="label_ajustes">Ajustes</string>
+    <string name="label_explorar">Selecciona el Archivo</string>
+    <string name="label_mostrar_imagen">Imagen</string>
+    <string name="action_prueva">Mostrar Prueba</string>
+    <string name="label_listing_results">Resultados de la lista</string>
+
+    <!-- Columnas -->
+    <string name="articulos">ARTICULOS</string>
+    <string name="column_art">SKU</string>
+    <string name="column_descrip">DESCRIPCION</string>
+    <string name="column_reference">REFERENCIA</string>
+    <string name="column_precio">PRECIO</string>
+    <string name="column_precio_act">PRECIO ACTUAL</string>
+    <string name="column_precio_ant">PRECIO ANTERIOR</string>
+    <string name="column_ean">EAN</string>
+    <string name="column_cant">CANT</string>
+    <string name="column_existencia">EXISTENCIA</string>
+    <string name="column_url">URL</string>
+    <string name="column_imgUrl">URL IMAGEN</string>
+    <string name="column_lista">LISTA</string>
+    <string name="column_comparado">CONTRA</string>
+    <string name="column_dif">DIF</string>
+    <string name="column_tipo_precio">TIPO DE PRECIO</string>
+    <string name="column_tipo_precio_normal">Normal</string>
+    <string name="column_tipo_precio_rebaja">Rebaja</string>
+
+    <!-- Mensajes -->
+    <string name="mensaje_exportar">Selecciona los datos que vas a exportar (Artículo, descripción y
+        cantidad se agregan por defecto).</string>
+    <string name="mensaje_busqueda">Selecciona y escribe los valores del artículo a buscar</string>
+    <string name="msj_list_exist">Ya hay una lista iniciada ¿quieres seguir en esa lista o borrarla
+        y empezar una nueva?</string>
+    <string name="mensaje_no_DB">No existe una base de datos para tomar información</string>
+    <string name="msj_select_cargar_catalogo">Selecciona el origen del catálogo de Artículos</string>
+    <string name="msj_select_how_to_save_the_file">Selecciona como guardar el Archivo</string>
+    <string name="msj_add_price_type">Agregar tipo de precio (Normal o Rebaja)</string>
+    <string name="msj_concentrate_export_list">Exportar consentrado de la Lista</string>
+    <string name="msj_line_separated_file">Archivo separado por linea Vertical (.txt)</string>
+    <string name="msj_tab_separated_file">Archivo separado por Tabulador (.txt)</string>
+    <string name="msj_comma_separated_file">Archivo separado por comas (.csv)</string>
+    <string name="msj_imp_url_desarrollo">Importar desde Archivo Url en desarrollo</string>
+    <string name="msj_only_num">Solamente se aceptan Números</string>
+    <string name="msj_servidor_desarrollo">Modo servidor en desarrollo</string>
+    <string name="msj_there_is_no_img_url">No existe Url para mostrar Imagen</string>
+    <string name="msj_not_added_any_code">No has agregado ningún código</string>
+    <string name="msj_selected_columns_ini">Se seleccionaron correctamente las Columnas de </string>
+    <string name="msj_selected_columns_fin">Pero también se encontraron otras columnas, marca las
+        que quieras agregar:</string>
+    <string name="msj_art_sin_relacion_ini">Este artículo no tiene relación por </string>
+    <string name="msj_art_sin_relacion_fin"> con algún otro</string>
+    <string name="msj_sin_relacion">No se pudo encontrar relación</string>
+    <string name="msj_find_cancel">Se canceló la búsqueda</string>
+    <string name="msj_you_are_in">Estas en: </string>
+    <string name="msj_no_archive">No hay ningun archivo</string>
+    <string name="msj_unsupported_file">Archivo no compatible</string>
+    <string name="msj_exists_filename_ini">Ya existe un Archivo con el nombre </string>
+    <string name="msj_exists_filename_fin"> ¿qué quieres hacer?</string>
+    <string name="msj_no_filename">No hay nombre para el archivo</string>
+    <string name="msj_article_no_description">Artículo sin Descripción</string>
+    <string name="msj_comparing_list">Comparando Lista...</string>
+    <string name="msj_reading_list">Leyendo Lista...</string>
+    <string name="msj_concentrating_list">Concentradndo Lista...</string>
+    <string name="msj_saving_lista">Guardando Lista...</string>
+    <string name="msj_preparing_image">Preparando Imagen...</string>
+    <string name="msj_acerca_d_ini">My Small Business by Neza creado por Jose Nezahualcoyotl Prieto Amador.</string>
+    <string name="msj_acerca_d_fin">Email: jnprietoa@gmail.com</string>
+    <string name="msj_select_the_column_for">Selecciona la columna para</string>
+    <string name="msj_open_file_">Abriendo archivo</string>
+    <string name="msj_saving_differences">Guardando diferencias</string>
+    <string name="msj_no_reference">Sin Referencia</string>
+
+
+    <!-- Mensaje Ok -->
+    <string name="msj_delete_list_ok">Se borró la lista Exitosamente</string>
+    <string name="msj_delete_data_base_ok">Eliminación exitosa de la base de datos</string>
+    <string name="msj_delete_file_tmp_ok">Eliminación exitosa de Archivos temporales</string>
+    <string name="msj_save_file_ok">El archivo de guardo correctamente en </string>
+    <string name="msj_compared_with_no_difference">Comparación terminada, no se encontraron diferencias</string>
+
+    <!-- Mensajes Error -->
+    <string name="title_error">Error</string>
+    <string name="msj_error_save_list">Error al guardar Lista</string>
+    <string name="msj_error_save_dif">Error al guardar diferencias</string>
+    <string name="msj_error_sharing_image">Error al compartir Imagen</string>
+    <string name="msj_not_read_list_of_items">No se pudo leer la lista de artículos</string>
+    <string name="msj_cancel_oper">La operación se canceló</string>
+    <string name="msj_article_not_found">No se encontró el artículo</string>
+    <string name="msj_cant_empty">No has agregado cantidad</string>
+    <string name="msj_empty_fields">Campos Vacíos</string>
+    <string name="msj_is_not_selected_value">No se ha seleccionado o escrito ningún valor</string>
+    <string name="msj_no_match_was_found_not">No se encontró ninguna coincidencia</string>
+    <string name="msj_no_column_titles_found">No se encontraron los titulos de las columnas</string>
+    <string name="msj_no_url_dir">No hay ninguna dirección del archivo agregada</string>
+    <string name="msj_desarrollo"></string>
+    <string name="msj_empty_file">Archivo Vacío</string>
+    <string name="msj_error_column">Error en columnas, no se encontraron las columnas:</string>
+    <string name="msj_file_does_not_exist">No existe el archivo</string>
+    <string name="msj_permission_denied">No se tienen permisos para escribir en la aplicación.
+        Los necesitas para poder usarla.</string>
+    <string name="msj_write_external_storage_permission_denied">No has concedido los permisos se necesitan para ejecutar varias acciones.</string>
+
+
+    <!-- Msj Alert Dialog -->
+    <string name="title_conf_delete_data_base">BORRAR BASE DE DATOS</string>
+    <string name="title_conf_exit_app">Salir de la App</string>
+    <string name="title_tipo_archivo">Tipo de archivo a comparar</string>
+    <string name="msj_alert_conf_delete_data_base">¿Estás seguro que quieres borrar toda la base de
+        datos de esta aplicación?</string>
+    <string name="title_importar_informacion">Importar Información</string>
+    <string name="msj_carga_exitosa">Carga Exitosa</string>
+    <string name="msj_cargar_error">Error al cargar archivo</string>
+    <string name="msj_conf_exit_app">¿Seguro que deseas Salir de la Aplicación?</string>
+    <string name="msj_conf_delete_list">¿Estás seguro que quieres borrar la lista de artículos que
+        has agregado?</string>
+    <string name="title_there_is_no_data">NO HAY DATOS</string>
+    <string name="msj_there_is_no_data">No existe una base de datos para consultar primero debes
+        ingresar una antes de continuar</string>
+    <string name="msj_conf_cancel">¿Seguro que deseas cancelar?</string>
+    <string name="msj_load_dat">Cargando Datos...</string>
+    <string name="msj_of">de</string>
+    <string name="msj_bytes">KB</string>
+    <string name="msj_find_relation_for">Buscar relacion por</string>
+    <string name="msj_find_relation">"Buscando Relación..."</string>
+    <string name="msj_find">Buscando...</string>
+    <string name="msj_load_image">Cargando Imagen...</string>
+    <string name="msj_download_file">Descargando Archivo...</string>
+    <string name="title_column_no_encontradas">ERROR EN TITULOS</string>
+    <string name="msj_column_no_encontradas_ini">No se encontró el nombre de las columnas
+        principales (</string>
+    <string name="msj_column_no_encontradas_fin">) chécalo y vuelve a intentarlo.</string>
+    <string name="msj_compare_list_inicio">Comparando Archivo</string>
+    <string name="msj_compare_list_final">contra Lista</string>
+    <string name="msj_conf_exit_advance_find">¿Seguro que deseas salir de la búsqueda avanzada?</string>
+    <string name="msj_filename">Nombre del Archivo</string>
+    <string name="msj_filename_to_share">Escribe el nombre del archivo a compartir</string>
+    <string name="msj_different_name">Escribe un nombre diferente</string>
+    <string name="msj_list_empty">La lista esta vacía</string>
+    <string name="msj_failed_share_file">Error al compartir el archivo</string>
+    <string name="msj_picture_not_found">Error no se encontró la imagen del artículo</string>
+    <string name="msj_exit_without_selecting_an_option">¿Seguro que deseas salir sin seleccionar una opción?</string>
+    <string name="msj_many_matches">Se encontraron mas de cuatro mil coincidencias pero no se pudieron agregar todas</string>
+    <string name="msj_data_base_exists">Ya existe una base de datos ¿quieres reemplazarla?</string>
+    <string name="msj_confirm_out_settings">¿Deseas guardar los cambios antes de salir?</string>
+    <string name="msj_question_image_art">¿Quieres ver la imagen del artículo?</string>
+    <string name="msj_conf_salir_sin_guardar">Estas editando la lista de artículos ¿deseas salir sin guardar los cambios?</string>
+    <string name="msj_confirm_compare_file">¿Quieres comparar la lista con este archivo?</string>
+
+
+</resources>
+

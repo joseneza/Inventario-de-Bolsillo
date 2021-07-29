@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jose.prieto.mysmallbusinessbyneza.Ajustes"
+    style="@style/MyThemeLayout">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action_list"
+                android:id="@+id/textViewAjustes"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                style="@style/MyThemeTextView.Titulo"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/lyt_modo_carga"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="ajustesModoCarga"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/str_cargar_datos"
+                    android:id="@+id/text_ajuste_ModoCarga"
+                    style="@style/MyThemeTextView"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/str_archivo_local"
+                    android:id="@+id/text_ajuste_ModoCargaSub"
+                    style="@style/MyThemeTextView.Sub"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/str_nva_data_base"
+                style="@style/MyThemeTextView"
+                android:id="@+id/text_ajuste_nva_data_base"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:onClick="ajustesNvaBaseDatos"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/str_delete_data_base"
+                style="@style/MyThemeTextView"
+                android:id="@+id/text_ajuste_delete_data_base"
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:onClick="ajustesBorrarBasedatos"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/lyt_servidor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="ajusteIpServidor"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/str_servidor"
+                    android:id="@+id/text_ajuste_titulo_servidor"
+                    style="@style/MyThemeTextView"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text=""
+                    android:id="@+id/text_ajuste_ip_servidor"
+                    style="@style/MyThemeTextView.Sub"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/str_unidad_automatica"
+                android:id="@+id/chckBoxUnidad"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20dp"
+                android:onClick="ajustesAgregarUnidad"
+                android:gravity="center_vertical"
+                style="@style/MyThemeTextView" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

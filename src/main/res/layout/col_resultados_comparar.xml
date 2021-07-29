@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="@string/column_art"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/col_resultados_comparar_Art"
+        style="@style/MyThemeTextView"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="@string/column_lista"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/col_resultados_comparar_Lista"
+        android:gravity="right"
+        style="@style/MyThemeTextView"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="@string/column_comparado"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/col_resultados_comparar_Comparador"
+        android:gravity="right"
+        style="@style/MyThemeTextView"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="@string/column_dif"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/col_resultados_comparar_dif"
+        android:gravity="right"
+        style="@style/MyThemeTextView"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/column_descrip"
+        android:id="@+id/col_resultados_comparar_Descrip"
+        android:layout_marginLeft="7dp"
+        style="@style/MyThemeTextView" />
+
+</LinearLayout>
